@@ -1,0 +1,16 @@
+{
+  "name": "rest-to-jms",
+  "version": "1.0.0",
+  "description": "Pulls data from a rest service and places onto a JMS queue",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Erik Pearson",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "stompit": "^1.0.0"
+  }
+}
